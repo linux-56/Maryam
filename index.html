@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Test</title>
-  <style>
-    body {
-      background-color: lch(100% 0.01 296.81);
-    }
-    h1 {
-      color: rgb(12, 83, 69);
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Notes</title>
 </head>
-<body>
-  <h1/> full stack web dev by Maryam </h1>
+
+<body >
+
+    <header>
+        <h1>Sakura Notes</h1>
+    </header>
+
+<label for="note-title" style="display: block; margin-bottom: 10px;"></label> <input type="text" id="note-title"
+    name="note-title"
+
+    <form>
+
+        <div>
+            <textarea id="note-content" name="note-content" rows="10" wrap="soft"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Save Note</button>
+        </div>
+    </form>
+
+
+    <footer>
+        <p>&copy; 2025 Sakura Notes.</p>
+    </footer>
 </body>
-</html>
+
+</html> 
